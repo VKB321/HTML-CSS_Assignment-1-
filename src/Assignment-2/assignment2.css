@@ -1,7 +1,72 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container{
+border: 1px solid black;
 width: 100%;
 height: 100%;
 }
+#head{
+    display: inline-block;
+    border: 1px solid black;
+    width: 99%;
+    height: 10%;
+    margin: 0.5%;
+    background-color: aqua;
+}
+img{
+    padding: 10px;
+}
+form{
+    float: right;
+    padding: 25px;
+}
+nav{
+    border: 1px solid black;
+    margin: 0.5%;
+    padding: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+#left-sidebarmenu,section,#right-sidebar-menu,#page-footer{
+    border: 1px solid black;
+    margin: 0.5%;
+}
+#left-sidebarmenu,section,#right-sidebar-menu{
+    display: inline-block;
+}
+#left-sidebarmenu,#right-sidebar-menu{
+    width: 10%;
+}
+section{
+    width: 75%;
+    align-items: center;
+}
+#left-sidebarmenu ul,#right-sidebar-menu ul{
+    list-style: none;
+}
+#left-sidebarmenu ul li{
+    margin-top: 75px;
+}
+#right-sidebar-menu ul li{
+    margin-top: 57px;
+}
+#right-sidebar-menu ul{
+    margin-bottom: 500px;
+}
+
+#left-sidebarmenu{
+    float: left;
+}
+#right-sidebar-menu{
+    float: right;
+}
+.post-img{
+    width: 30%;
+}
+
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Dog Party</title>
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
@@ -12,8 +12,53 @@
 	<div id="container">
 
 	<!-- Start your code from here -->
-	
-
+	<header>
+		<h1></h1>
+		<nav>
+			<ul>
+				<li><a href="#How">How</a></li>
+				<li><a href="#What">What</a></li>
+				<li><a href="#Facts">Facts</a></li>
+			</ul>
+			</nav>
+	</header>
+		<section id="hero">
+			<h2>A Site About Some Dogs</h2>
+			<img src="dogs_ImgFolder/section.jpg" alt="Dog_image"><br>
+			<a id="btn" href="https://github.com/turingschool-examples/introductory-static-site/blob/gh-pages/images/example/main-page.png">What are Dogs</a>
+</section>
+		<section class="content">
+			<article  class="three-col" id="How">
+				<h3>How</h3>
+				<img src="dogs_ImgFolder/left.jpg" alt="Dog_image">
+				<p>Nap all day Gate keepers of hell yet stares at human while pushing stuff off a table. Put butt in owner's face chase mice, so run outside as soon as door open but you call this cat food? stare at the wall, play with food and get confused by dust.</p>
+				<a id="btn" style="margin-left: 70px;" href="https://en.wikipedia.org/wiki/Dog">Link One</a>
+			</article>
+			<article class="three-col" id="What"><h3>What</h3>
+				<img src="dogs_ImgFolder/middle.JPG" alt="Dog_image">
+				<p>Soft kitty warm kitty little ball of furr. Hunt anything that moves meowing non stop for food stand in front of the computer screen knock dish off table head butt cant eat out of my own dish, then cats take over the world hide when guests come over.
+				</p>
+				<a id="btn" style="margin-left: 70px;" href="http://www.dog-adoption-and-training-guide.com/about-dogs.html">Link Two</a>
+			</article>
+			<article  class="three-col" id="Facts">
+				<h3>Facts</h3>
+				<img src="dogs_ImgFolder/right.jpg" alt="Dog_image" width="220px" height="220px">
+				<p>Destroy the blinds chase imaginary bugs, so lie on your belly and purr when you are asleep. Fall asleep on the washing machine give attitude hunt anything that moves groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!
+				</p>
+				<a id="btn" style="margin-left: 70px;" href="http://www.livescience.com/13305-facts-dog-breeds-genetics-pets.html">Link Three</a>
+			</article>
+		</section>
+			<footer>
+				<h4>Learn About Dogs Online</h4>
+				<ul>
+				  <li><img class="im" src="dogs_ImgFolder/tw.jpg"/></li>
+				  <li><img  class="im" src="dogs_ImgFolder/i.jpg"/></li>
+				  <li><img class="im" src="dogs_ImgFolder/f.jpg"/></li>
+				  <li><img class="im" src="dogs_ImgFolder/in.jpg"/></li>
+				</ul>
+				<a class="link" href="https://github.com/turingschool-examples/introductory-static-site" target="_blank">See this on GitHub</a>
+			  </footer>
+		
 	<!-- End your code -->
 
 	</div>
@@ -29,7 +74,7 @@
 	var head = document.getElementsByTagName('HEAD')[0]; 
 	// Create new link Element
 	var link = document.createElement('link');
-	// set the attributes for link element 
+	// set the attributes for link element
 	link.rel = 'stylesheet'; 
 	link.type = 'text/css';
 	link.href = './assignment4.css?v='+ new Date().getTime(); 
