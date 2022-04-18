@@ -1,7 +1,41 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container{
 width: 100%;
 height: 100%;
+}
+.container{
+
+    display: flex;
+    height: 50%;
+    background-color: #F2F2F2;
+}
+.content h1{
+    font: 100px;
+}
+.content{
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+p{
+    padding: 0 100px 0 100px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Bottom{
+    text-align: center;
+    background-color: #F2F2F2;   
+}
+.Bottom h1{
+    font-size: 60px;
+}
+iframe{
+    width: 700px;
+    height: 300px;
 }
